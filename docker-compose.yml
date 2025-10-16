@@ -21,7 +21,7 @@ services:
       sh -c "npm install && node app"
 
   mongo:
-    image: mongo:7.0
+    image: mongo:8.0
     container_name: simple-login-mongo
     ports:
       - "27017:27017"
